@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+
+body{
+    font-family: 'Montserrat';
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    background-image: url("imagenes/fondo.jpg");
+    background-size: 50%;
+  
+    
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(224, 130, 182, 0.34);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Ephesis', cursive;
+    font-size: 50px;
+}
+
+.seccion {
+    margin-top: 20px;
+}
+
+.nota {
+    text-align: center;
+}
+
+
+#fecha {
+    width: auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 10px;
+}
+
+#nota {
+    width: -webkit-fill-available;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+  height: 150px;
+  
+}
+textarea:focus {
+    background-color: rgb(223, 177, 213)
+  }
+
+
+#boton {
+    width: auto;
+    padding: 8px;
+    background-color: rgba(238, 117, 184, 0.883);
+    color: #333;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+#mostrar {
+    width: auto;
+    padding: 8px;
+    background-color: rgba(238, 117, 184, 0.883);
+    color: #333;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+#limpiar {
+    width: auto;
+    padding: 8px;
+    background-color: rgba(238, 117, 184, 0.883);
+    color: #333;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+   
+}
+
+
+.historial {
+    text-align: center;
+    color:rgb(78, 76, 76)
+}
+
+
+th{
+    background-color: rgb(231, 47, 139);
+}
+table, th, td{
+    border: 1px solid;
+    border-bottom: 1px solid;
+    text-align: center;
+    font-size: 18px; 
+    margin: 45px; 
+    width: 600px; 
+    text-align: center; 
+    border-collapse: collapse;
+}
+
+tr:hover {background-color: rgb(179, 167, 175);}
